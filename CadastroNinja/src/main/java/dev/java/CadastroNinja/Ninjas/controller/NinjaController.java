@@ -1,4 +1,4 @@
-package dev.java.CadastroNinja;
+package dev.java.CadastroNinja.Ninjas.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,4 +12,6 @@ public class NinjaController {
     public String boasVindas(){
         return "Primeira mensagem";
     }
+
 }
+
